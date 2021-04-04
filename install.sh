@@ -1,17 +1,17 @@
 clear
-echo "instalando recursos..."|lolcat -a -d 5
+echo "instalando recursos..."
 sleep 5
 clear
 apt-get update && clear && apt-get upgrade -y && clear && apt-get install git ruby python cmake figlet wget proot -y && hash -r && clear
 cd 
 git clone https://github.com/busyloop/lolcat
-cd lolcat/bin && gem install lolcat                             cd && rm -r lolcat                                              clear
+cd lolcat/bin && gem install lolcat                             cd ../../ && rm -r lolcat                                       clear
 apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
 clear
 rm -r ssh-apt.sh
-cd ..
 clear
+cd
 echo "Clonando la herramienta de minado!..."|lolcat -a -d 5
 sleep 5
 git clone https://github.com/xmrig/xmrig
