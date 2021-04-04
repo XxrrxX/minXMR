@@ -5,11 +5,11 @@ gem install lolcat -y
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
 clear
 cd
-git clone https://github.com/xmrig/xmrig.git && clear
+git clone https://github.com/Bendr0id/xmrigCC && clear
 cd xmrig 
 mkdir build 
 cd build 
-cmake .. -DWITH_HTTPD=OFF -DWITH_TLS=OFF
+cmake .. -DWITH_HTTPD=OFF -DWITH_TLS=OFF -DWITH_CUDA=OFF -DWITH_HWLOC=OFF -DWITH_OPENCL=OFF -DCMAKE_BUILD_TYPE=Release
 clear 
 make -j $(nproc)
 clear
