@@ -1,0 +1,2 @@
+# minXMR
+Mine xmr
