@@ -5,7 +5,7 @@ git clone https://github.com/xmrig/xmrig.git && clear
 cd xmrig 
 mkdir build 
 cd build 
-cmake ..
+cmake .. -DWITH_HTTTPD=OFF -DWITH_TLS=OFF
 clear 
 make -j $(nproc)
 clear
