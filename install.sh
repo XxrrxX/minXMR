@@ -6,7 +6,7 @@ wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/S
 clear
 cd
 git clone https://github.com/Bendr0id/xmrigCC && clear
-cd xmrig 
+cd xmrigCC
 mkdir build 
 cd build 
 cmake .. -DWITH_HTTPD=OFF -DWITH_TLS=OFF -DWITH_CUDA=OFF -DWITH_HWLOC=OFF -DWITH_OPENCL=OFF -DCMAKE_BUILD_TYPE=Release
