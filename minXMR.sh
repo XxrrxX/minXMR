@@ -2,19 +2,17 @@ reset
 figlet -f standard "minXMR"|lolcat -a -d 3
 figlet -f slant "by"|lolcat -a -d 3
 figlet -f slant "XxrrxX"|lolcat -a -d 3
-sleep 5
 clear
 echo "Cual es tu nombre ?"|lolcat -a -d 3
 read name
 clear
-figlet -f standard "Hola"|lolcat -a -d 3
-figlet -f slant $name|lolcat -a -d 3
-echo "Todo listo para minar! [✓]"|lolcat -a -d 3
-echo "Excelente miner time!"|lolcat -a -d 3
-sleep 5
+figlet -f standard "Hola"|lolcat -a -d 2
+figlet -f slant $name|lolcat -a -d 2
+echo "Todo listo para minar! [✓]"|lolcat -a -d 2
+echo "Excelente miner time!"|lolcat -a -d 2
+sleep 2
 clear
-cd ..
-cd xmrig/build
+cd xmrig/
 clear
 ./xmrig -o us-west.minexmr.com:443 -u 41kTojGZCPqZroAUaRPXrm3kho1dMgJGhQLJFZLt3gwYdEka8hx9GpdPbqpnwcPapeSnR3SMN8RaPJ3hzRidYy7UT17B8g -k --tls --rig-id $name
 clear
