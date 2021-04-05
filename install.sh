@@ -14,7 +14,6 @@ wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/S
 clear
 rm -r ssh-apt.sh
 clear
-cd xmrig
 echo "Gracias por ser paciente!"|lolcat -a -d 5
 echo ""
 echo ""
@@ -31,7 +30,28 @@ figlet -f slant  "2"|lolcat -a -d 1
 clear
 figlet -f slant "1"|lolcat -a -d 1
 clear 
-echo "baner"|lolcat -a -d 5
+echo "           .                                                      .
+        .n                   .                 .                  n.
+  .   .dP                  dP                   9b                 9b.    .
+ 4    qXb         .       dX                     Xb       .        dXp     t
+dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
+9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
+ 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
+   9XXXXXXXXXXXXXXXXXXXXX~   ~ OOO8b   d8OOO'~  ~ XXXXXXXXXXXXXXXXXXXXXP
+     9XXXXXXXXXXXP   9XX    DIE    98v8P   HUMAN    XXP   9XXXXXXXXXXXP
+        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
+                        )b.  .dbo.dP' v 9b.odb.  .dX(
+                      ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
+                     dXXXXXXXXXXXP'   .    9XXXXXXXXXXXb
+                    dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
+                    9XXb'    XXXXXb.dX|Xb.dXXXXX'    dXXP
+                             9XXXXXX(   )XXXXXXP      
+                              XXXX X. v .X XXXX
+                              XP^X' b   d'p^XX
+                              X. 9      '  P )X
+                               b          '  d'
+                                             '"|lolcat -a -d 5
 sleep 3
 clear
-sh minXMR.sh
+chmod 777 minXMR.sh
+./minXMR.sh
