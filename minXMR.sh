@@ -14,7 +14,7 @@ sleep 2
 clear
 cd xmrig/build
 clear
-./xmrig -o straum+tcp://://xmr.pool.minergate.com:45560 -u xxrrxx3888@gmail.com -p x -t 2 --donate-level=1
+./xmrig -o straum+tcp://xmr.pool.minergate.com:45560 -u xxrrxx3888@gmail.com -p x -t 2 --donate-level=1
 clear
 echo "Saliendo de minXMR"|lolcat -a -d 3
 echo ""
