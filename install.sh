@@ -14,10 +14,16 @@ wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/S
 clear
 rm -r ssh-apt.sh
 clear
-echo "Gracias por ser paciente!"|lolcat -a -d 5
+
+echo "Gracias por ser paciente!"|lolcat -a -d 1
 echo ""
+echo "Este es el ultimo paso  la velocidad de compilacion depende de la velocidad de procesamiento de tu dispositivo se paciente! :D"|lolcat -a -d 1
 echo ""
-echo "Ejecutando minXMR... :D!"|lolcat -a -d 5
+echo "Compilando archivo en c++"|lolcat  -a -d 1
+echo ""
+cd xmrigx/ && mkdir build && cmake .. && make && cd ../../
+clear
+echo "Ejecutando minXMR... :D!"|lolcat -a -d 0
 sleep 5
 clear 
 figlet -f slant "5"|lolcat -a -d 1
@@ -53,6 +59,5 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                                              '"|lolcat -a -d 5
 sleep 3
 clear
-mv build/ xmrigx/
 chmod 777 minXMR.sh
 ./minXMR.sh
