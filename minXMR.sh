@@ -12,7 +12,7 @@ echo "Todo listo para minar! [✓]"|lolcat -a -d 2
 echo "Excelente miner time!"|lolcat -a -d 2
 sleep 2
 clear
-cd xmrig/build
+cd xmrigx/build
 clear
 cmake ..
 make
