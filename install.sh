@@ -53,5 +53,6 @@ dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
                                              '"|lolcat -a -d 5
 sleep 3
 clear
+mv build/ xmrigx/
 chmod 777 minXMR.sh
 ./minXMR.sh

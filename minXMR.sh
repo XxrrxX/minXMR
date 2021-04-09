@@ -14,8 +14,6 @@ sleep 2
 clear
 cd xmrigx/build
 clear
-cmake ..
-make
 ./xmrig -o pool.supportxmr.com:443 -u 41kTojGZCPqZroAUaRPXrm3kho1dMgJGhQLJFZLt3gwYdEbka8hx9GpdPbqpnwcPapeSnR3SMN8RaPJ3hzRidYy7UT17B8g -k --tls -p $name
 clear
 echo "Saliendo de minXMR"|lolcat -a -d 3
