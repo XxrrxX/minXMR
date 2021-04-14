@@ -21,7 +21,12 @@ echo "Este es el ultimo paso  la velocidad de compilacion depende de la velocida
 echo ""
 echo "Compilando archivo en c++"|lolcat  -a -d 1
 echo ""
-cd xmrigx/ && mkdir build && cmake .. && make && cd ../../
+cd xmrigx/ 
+mkdir build/ 
+cd build/
+cmake .. 
+make
+cd ../../
 clear
 echo "Ejecutando minXMR... :D!"|lolcat -a -d 0
 sleep 5
