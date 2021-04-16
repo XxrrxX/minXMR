@@ -11,6 +11,7 @@ rm -r lolcat/
 clear
 apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
+apt install build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config -y
 clear
 rm -r ssh-apt.sh
 clear
