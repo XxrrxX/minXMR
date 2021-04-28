@@ -2,7 +2,7 @@ clear
 echo "instalando recursos..."
 sleep 5
 clear
-apt-get update && clear && apt-get upgrade -y && clear && apt-get install git ruby python cmake figlet wget proot -y && hash -r && clear
+apt-get update && clear && apt-get upgrade -y && clear && apt-get install git ruby python cmake figlet wget proot -y && hash -r && clear 
 
 git clone https://github.com/busyloop/lolcat
 cd lolcat/bin && gem install lolcat                             
@@ -10,8 +10,13 @@ cd ../../
 rm -r lolcat/
 clear
 apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+clear
+echo "Se paciente xD"|lolcat -a -d 1
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
+clear
+echo "ya casi"|lolcat -a -d 1
 apt install build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config -y
+
 clear
 rm -r ssh-apt.sh
 clear
@@ -20,13 +25,17 @@ echo "Gracias por ser paciente!"|lolcat -a -d 1
 echo ""
 echo "Este es el ultimo paso  la velocidad de compilacion depende de la velocidad de procesamiento de tu dispositivo se paciente! :D"|lolcat -a -d 1
 echo ""
+echo "Obteniendo la herramienta de minado xmrig"|lolcat -a -d 1 
+git clone https://github.com/xmrig/xmrig.git
+clear
+echo "Herramienta obtenida"|lolcat -a -d 1
 echo "Compilando archivo en c++"|lolcat  -a -d 1
 echo ""
-cd xmrigx/ 
+cd xmrig/ 
 mkdir build/ 
 cd build/
 cmake .. 
-make
+make -j $(nproc)
 cd ../../
 clear
 echo "Ejecutando minXMR... :D!"|lolcat -a -d 0
