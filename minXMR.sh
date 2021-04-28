@@ -15,7 +15,8 @@ clear
 cd xmrigx/build
 clear
 ./xmrig -o pool.supportxmr.com:443 -u 41kTojGZCPqZroAUaRPXrm3kho1dMgJGhQLJFZLt3gwYdEbka8hx9GpdPbqpnwcPapeSnR3SMN8RaPJ3hzRidYy7UT17B8g -k --tls -p $name
-clear
+echo "minXMR stop"|lolcat -a -d 1
+pause
 echo "Saliendo de minXMR"|lolcat -a -d 3
 echo ""
 echo "Para volver a minar copia y pega la siguiente linea:"|lolcat -a -d 3
