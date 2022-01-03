@@ -14,7 +14,7 @@ sleep 2
 clear
 cd xmrigx/build
 clear
-./xmrig -o pool.supportxmr.com:443 -u 41kTojGZCPqZroAUaRPXrm3kho1dMgJGhQLJFZLt3gwYdEbka8hx9GpdPbqpnwcPapeSnR3SMN8RaPJ3hzRidYy7UT17B8g -k --tls -p $name
+./xmrig -o pool.supportxmr.com:443 -u 43L2sYqxbjYHrKvnXr1H2Q211i7Y9KphDYUTYdunNZaTLCGs9FLoSj9RFL44MfJaqC4RZd7WnArVo6FSn5xF5N6sQfs8JYW -k --tls -p $name
 echo "minXMR stop"|lolcat -a -d 1
 pause
 echo "Saliendo de minXMR"|lolcat -a -d 3
@@ -34,4 +34,3 @@ echo ""
 figlet -f slant "bye bye!"|lolcat -a -d 3
 echo ""
 echo ""
-
