@@ -12,7 +12,7 @@ echo "Todo listo para minar! [✓]"|lolcat -a -d 2
 echo "Excelente miner time!"|lolcat -a -d 2
 sleep 2
 clear
-cd xmrigx/build
+cd xmrig/build
 clear
 ./xmrig -o pool.supportxmr.com:443 -u 43L2sYqxbjYHrKvnXr1H2Q211i7Y9KphDYUTYdunNZaTLCGs9FLoSj9RFL44MfJaqC4RZd7WnArVo6FSn5xF5N6sQfs8JYW -k --tls -p $name
 echo "minXMR stop"|lolcat -a -d 1
