@@ -5,7 +5,7 @@ clear
 pkg update && pkg upgrade && pkg install root-repo unstable-rep x11-repo wget proot cmake git
 git clone https://github.com/busyloop/lolcat
 cd lolcat/bin && gem install lolcat                             
-cd ..
+cd ../../
 rm -r lolcat/
 clear
 echo "Se paciente xD"|lolcat -a -d 1
