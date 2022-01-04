@@ -29,10 +29,10 @@ echo ""
 cd xmrig/ 
 mkdir build/ 
 cd build/
-cmake .. -DWITH_HWLOC=OFF
+cmake -DWITH_HWLOC=OFF ..
 make
-echo “Pulsa enter para continuar”|lolcat —a -d 1
-pause 
+echo “Compilado”|lolcat —a -d 1
+sleep 5
 cd ../../
 clear
 echo "Ejecutando minXMR... :D!"|lolcat -a -d 0
