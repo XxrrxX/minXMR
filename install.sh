@@ -5,6 +5,7 @@ clear
 pkg update && pkg upgrade && pkg install wget
 pkg install cmake 
 pkg install git
+pkg install termux-tools
 pkg install root-repo unstable-repo x11-repo proot
 apt-get install root-repo unstable-repo x11-repo proot
 git clone https://github.com/busyloop/lolcat
@@ -31,7 +32,7 @@ echo ""
 cd xmrig/ 
 mkdir build/ 
 cd build/
-cmake -DWITH_HWLOC=OFF ..
+cmake .. -DWITH_HWLOC=OFF -DWITH_HTTPD=OFF -DWITH_TLS=OFF -DWITH_CUDA=OFF -DWITH_OPENCL=OFF -DCMAKE_BUILD_TYPE=Release
 make
 echo “Compilado”|lolcat —a -d 1
 sleep 5
