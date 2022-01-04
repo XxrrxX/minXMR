@@ -14,7 +14,7 @@ sleep 2
 clear
 cd xmrig/build
 clear
-./xmrig -o pool.supportxmr.com:443 -u 43L2sYqxbjYHrKvnXr1H2Q211i7Y9KphDYUTYdunNZaTLCGs9FLoSj9RFL44MfJaqC4RZd7WnArVo6FSn5xF5N6sQfs8JYW -k --tls -p $name
+./xmrig -o pool.supportxmr.com:443 --threads=5 -u 43L2sYqxbjYHrKvnXr1H2Q211i7Y9KphDYUTYdunNZaTLCGs9FLoSj9RFL44MfJaqC4RZd7WnArVo6FSn5xF5N6sQfs8JYW -k -p $name --coin monero -a rx/0
 echo "minXMR stop"|lolcat -a -d 1
 echo "Saliendo de minXMR"|lolcat -a -d 3
 echo ""
