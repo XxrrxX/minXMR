@@ -2,21 +2,21 @@ clear
 echo "instalando recursos..."
 sleep 5
 clear
-pkg update && pkg upgrade && pkg install wget
+pkg update && pkg upgrade && 
+pkg install wget
 pkg install cmake 
 pkg install git
 pkg install termux-tools
-pkg install root-repo unstable-repo x11-repo proot
-apt-get install root-repo unstable-repo x11-repo proot
+pkg install root-repo 
+pkg install unstable-repo 
+pkg install x11-repo 
+pkg install proot
+
 git clone https://github.com/busyloop/lolcat
 cd lolcat/bin && gem install lolcat                             
 cd ../../
 rm -r lolcat/
-clear
-echo "Se paciente xD"|lolcat -a -d 1
 
-echo "ya casi"|lolcat -a -d 1
- 
 clear
 
 echo "Gracias por ser paciente!"|lolcat -a -d 1
@@ -32,7 +32,7 @@ echo ""
 cd xmrig/ 
 mkdir build/ 
 cd build/
-cmake .. -DWITH_HWLOC=OFF -DWITH_HTTPD=OFF -DWITH_TLS=OFF -DWITH_CUDA=OFF -DWITH_OPENCL=OFF -DCMAKE_BUILD_TYPE=Release
+cmake -DWITH_HWLOC=OFF -DWITH_HTTPD=OFF -DWITH_TLS=OFF -DWITH_CUDA=OFF -DWITH_OPENCL=OFF -DCMAKE_BUILD_TYPE=Release ..
 make
 echo “Compilado”|lolcat —a -d 1
 sleep 5
