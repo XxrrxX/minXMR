@@ -29,7 +29,7 @@ echo ""
 cd xmrig/ 
 mkdir build/ 
 cd build/
-cmake -DWITH_HWLOC=OFF ..
+cmake .. -DWITH_HWLOC=OFF
 make
 echo “Pulsa enter para continuar”|lolcat —a -d 1
 pause 
