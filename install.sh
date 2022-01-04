@@ -2,7 +2,9 @@ clear
 echo "instalando recursos..."
 sleep 5
 clear
-pkg update && pkg upgrade && pkg install root-repo unstable-repo x11-repo wget proot cmake git
+pkg update && pkg upgrade && pkg install wget cmake git
+pkg install root-repo unstable-repo x11-repo proot
+apt-get install root-repo unstable-repo x11-repo proot
 git clone https://github.com/busyloop/lolcat
 cd lolcat/bin && gem install lolcat                             
 cd ../../
