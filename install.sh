@@ -5,17 +5,14 @@ clear
 pkg update && pkg upgrade && pkg install root-repo unstable-rep x11-repo wget proot cmake git
 git clone https://github.com/busyloop/lolcat
 cd lolcat/bin && gem install lolcat                             
-cd ../../
+cd ..
 rm -r lolcat/
 clear
 echo "Se paciente xD"|lolcat -a -d 1
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/SSH/Apt/ssh-apt.sh && bash ssh-apt.sh
-clear
+
 echo "ya casi"|lolcat -a -d 1
-apt install build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config -y
-
+ 
 clear
-
 
 echo "Gracias por ser paciente!"|lolcat -a -d 1
 echo ""
