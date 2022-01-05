@@ -4,14 +4,14 @@ sleep 5
 clear
 pkg update && pkg upgrade && 
 pkg install wget
-pkg install cmake 
+pkg install cmake ruby figlet
 pkg install git
 pkg install termux-tools
 pkg install root-repo 
 pkg install unstable-repo 
 pkg install x11-repo 
 pkg install proot
-
+pkg install build-essential perl pcre2 openssl libid3tag libflac lua54 
 git clone https://github.com/busyloop/lolcat
 cd lolcat/bin && gem install lolcat                             
 cd ../../
